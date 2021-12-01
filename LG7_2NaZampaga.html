@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Chloe Marie L. Zampaga">
+    <meta name="keywords" content="HTML, CSS">
+    <meta name="revised" content="01-12-2021">
+
+    <title>3rd Graded Exercise</title>
+
+    <style>
+    	a {
+        	text-decoration: none;
+        }
+    	#link1:link {
+        	background-color: darkblue;
+            color: lightblue;
+        }
+    	#link1:visited {
+        	background-color: lightgreen;
+        	color: darkgreen;
+        }
+        #link1:hover {
+        	background-color: pink;
+            color: deeppink;
+        }
+        #link1:active {
+        	background-color: orange;
+            color: red;
+        }
+		#div1:target {
+        	background-color: darkblue;
+        	color: yellow;
+        }
+        #link2:link {
+        	background-color: teal;
+            color: lightgreen;
+        }
+    	#link2:visited {
+        	background-color: aquamarine;
+        	color: teal;
+        }
+        #link2:hover {
+        	background-color: violet;
+            color: purple;
+        }
+        #link2:active {
+        	background-color: red;
+            color: white;
+        }
+        #div2:target {
+        	background-color: teal;
+            color: yellow;
+        	border: 10px dotted green;
+        }
+        div {
+            border: 1px solid black
+        }
+    </style>
+</head>
+
+<body>
+    <a href="#div1" id="link1">First Link</a>
+    <a href="#div2" id="link2">Second Link</a>
+    <br><br>
+    <div id="div1"><p>Div 1 here</p></div>
+    <br>
+    <div id="div2"><p>Div 2 here</p></div>
+</body>
+
+</html>
