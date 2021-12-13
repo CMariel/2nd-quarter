@@ -1,0 +1,10 @@
+.icon {
+    background: url(icon.png) no-repeat -125px -91px;
+    width: 33px;
+    height: 33px;
+}
+.icon:hover {
+    background: url(icon.png) no-repeat -125px -17px;
+    width: 33px;
+    height: 33px;
+}
